@@ -31,5 +31,6 @@ async function fetchData() {
     pokemonTypeElement.textContent = data.types[0].type.name;
   } catch (error) {
     console.error(error);
+    alert("Pokemon doesn't exist");
   }
 }
