@@ -82,6 +82,17 @@ body {
   display: none;
 }
 
+/*Sub Content*/
+.sub-information {
+  height: 100%;
+  background-color: #46090959;
+  margin-top: 1rem;
+}
+.pokemonInfo {
+  display: none;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 /* Add this media query at the end of your CSS file */
 
 @media screen and (max-width: 600px) {
