@@ -47,12 +47,12 @@ body {
 }
 
 .button-search button {
-  padding: 5px 10px;
   background-color: #d6c317;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .credits {
@@ -124,7 +124,6 @@ body {
 
   .button-search button {
     margin-top: 5px;
-    width: 5rem;
   }
 
   .pokemon-content {
